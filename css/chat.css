@@ -49,4 +49,15 @@ body {
   a {
     cursor: pointer;
   }
+  a.github-icon {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+}
+a.github-icon:hover {
+  color:#007bff;
+}
   
