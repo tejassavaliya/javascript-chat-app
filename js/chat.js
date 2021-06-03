@@ -152,12 +152,12 @@ const chat = new function(){
 		var boxEle = document.querySelector('#chatHistory');
 		document.querySelector('#chatHistory').scrollTo({ 
 			top: boxEle.scrollHeight, behavior: 'smooth' });
-		document.querySelector('#chatInput').value = ''
+		document.querySelector('#chatInput').value = '';
+		document.querySelector('#chatInput').focus();
 	}
 }
 
 $(function(){
-// document.addEventListener("DOMContentLoaded", function() {
 	
 	function loadData(chats){
 		for(var i=0; i<chats.length; i++) {
