@@ -10,5 +10,5 @@ https://tejassavaliya.github.io/javascript-chat-app/
  * To Get / Receive message used dummy function ( for operator and visitor ) 
  * Loaded the chat history from dymmy api function
 
- #### Demo Link and Image
-![Chat Demo](/images/logo.png)
+ #### Demo Image
+![Chat Demo](./chat-demo.gif)
